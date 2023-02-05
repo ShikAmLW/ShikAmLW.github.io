@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="src\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <img class="logo" src="\src\images\logo.png" alt="Logo of page">
+            <ul id="navList">
+                <!--Skipped logos for socials-->
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                 <i class="fas fa-bars"></i>
+            
+            </button>
+            
+        </nav>
+        
+        <div class="hero-text">
+            <h1>Shashika M</h1>
+            <p1>A coder</p1>
+            <div class="button" ><a href="#about-me">About me</a></div>
+        </div>
+       
+        
+    </section>
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About me</h2>
+            <p>I am an undergrad student studying computer science and I truly believe in the remarkable impact of technology on our world. My passion for technology has led me to pursue a career in this field, as I want to be a part of the change and help shape the future through innovative solutions. I am constantly seeking new opportunities to learn and grow in this dynamic field, and I am excited to see where my journey takes me.</p>
+            <p>Familiar with: Java, Javascript, Python, C, C++, Html, CSS, SQL, and more then exited to learn more!</p>
+        </div>
+        <div class="headshot-container">
+            <!--skipped the headshot image-->
+        </div>
+    </section>
+    <section class="sub-section-alternative " id="projects">
+        <h2 class="coding-title">Coding Projects:</h2>
+        <p>Click on images to view image/video.</p>
+        <div class="project-container">
+            <div class="proj-text">
+                
+                <h2>Project:1 Translation App</h2>
+                <p>Program takes an image through upload or by snapshot then by using OCR extracts text regardless of language from the image</p>
+                <p>This text then can be translated to any language the user wants </p>
+                <p>Learned creating desktop application using python, creating interactive GUI</p>
+                <p>Handled connecting various different API's inorder to have a singular function</p>
+                <p>Most importantly learned how to plan a project first before implementing to limit errors as much as possible</p>
+               
+            </div>
+            <div class="video">
+                <video src="src\videos\TranslateGUI.mp4"></video>
+                
+            </div> 
+            <div class="proj-text">
+                
+                <h2>Project:2 Java Poker Game</h2>
+                <p>This is 5-card draw poker game in Java</p>
+                <p>Where given a 5 card deck the player and the Computer will discard cards such that who ever has the highest hand wins </p>
+                <p>Used different OOP principles such as inheritence, abstraction, interfaces. Also implemented unit testing for checking if code passes various tests</p>
+                
+            </div>
+            <div class="video">
+                <video src="src\videos\Card game.mp4"></video>
+            </div> 
+            
+        </div>
+        <div class="proj-text-noVid">
+            <h2>Project:3 Website building</h2>
+            <p>This site is created through the combination of HTML, CSS and Javascript</p>
+            <p>Learned various things such as implementing pop up video/image from scratch, as well as various Javascript functions</p>
+            <h2>Project:4 Event driven simulation</h2>
+            
+            <p>This program simulates an event driven event. In this case is able to simulate a resturant.</p>
+            <p>Where the resturant manages events of having multiple orders coming in, cooking them as per their priority. As dishes are cooked per certain parameters such as cook time. </p>
+            <p>On top of this also simulates peoples disatisfaction if food is not delivered withing a set time and will leave</p>
+            <p>Coded using C++, used multiple concepts such as queues, linked list, file seperation, inheritence,and much more.</p>
+            <div class="pic">
+                <img src="src\images\prj4.jpg">
+            </div> 
+            <h2>Project:5 Text based interactive fiction game</h2>
+            
+            <p>This is not a choose your adventure like a basic RPG, rather it has more freedom so that a player can type whatever they wish</p>
+            <p>Taking any command the game can automatically decide how it should take an action. This is built using python and various OOP principles.</p>
+            <p>This game is currently in development and is made using Software engineering principles. From using UML's and following a design path, it is meant to develop proper software development skills along with working with others</p>
+            <p>Image source:https://leonnicholls.medium.com/interactive-fiction-actions-part-1-ca022b4d088d</p>
+            <div class="pic">
+                <img src="src\images\p5.jpg">
+            </div> 
+        </div>
+        <div class="popup-video">
+            <span>&times;</span>
+            <video src="src\videos\TranslateGUI.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-img">
+            <span>&times;</span>
+            <img src="src\images\prj4.jpg">
+        </div>
+        
+    </section>
+    <footer id="contact-me">
+        <h3>Contact me at: shashikaMK@outlook.com</h3>
+    </footer>
+    
+    <script src="src\app.js"></script>
+</body>
+</html>
